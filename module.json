@@ -1,0 +1,52 @@
+{
+  "id": "the-southern-alliance",
+  "title": "The Southern Alliance",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "description": "The Sourther Alliance is a Tier 1 one-shot adventure for DaggerHeart.",
+  "url": "https://github.com/piecesofcodecom/the-southern-alliance",
+  "download": "https://github.com/piecesofcodecom/the-southern-alliance/blob/main/the-southern-alliance_demo.zip?raw=true",
+  "manifest": "https://github.com/piecesofcodecom/the-southern-alliance/blob/main/module.json",
+  "readme": "https://github.com/piecesofcodecom/the-southern-alliance/blob/main/README.md",
+  "authors": [
+    {
+      "name": "Snagov",
+      "url": "https://piecesofcodecom.github.io/piecesofcode.github.io/",
+      "discord": "Snagov",
+      "flags": {}
+    }
+  ],
+  "flags": {
+    "canUpload": true
+  },
+  "packFolders":[
+    {
+      "name": "The Sourhern Alliance",
+      "sorting": "m",
+      "color": "#a9ac06",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      },
+      "packs":[
+        "adv-the-southern-alliance"
+      ]
+    }
+  ],
+  "packs": [
+    {
+      "name": "adv-the-southern-alliance",
+      "label": "Adventure",
+      "path": "packs/adv-the-southern-alliance",
+      "type": "Adventure",
+      "system": "daggerheart",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ]
+}
